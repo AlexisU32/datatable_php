@@ -9,11 +9,12 @@ class Conexion{
         define('password' , '');
         define('database' , 'datatables');
 
-        $dsn = "mysql:host=".servidor.";dbname=".user.";charset=utf8";
+        $dsn = "mysql:host=".servidor.";dbname=".database.";charset=utf8";
 
         try {
             $conexion = new PDO($dsn, user, password);
             $conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            return $conexion;
         } catch (PDOException $e) {
             die("La conexión tuvo el siguiente problema ". $e->getMessage());
         }

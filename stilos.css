@@ -1,0 +1,18 @@
+
+.container{
+    width: 100%;
+    height: 100%;
+    align-content: center;
+}
+
+.tbUsers {
+    width: 100%;
+}
+
+.tbUsers thead {
+    background: #1E90FF;
+    text-align: center;
+}
+.tbUsers thead th {
+    border-radius: 5px;
+}
