@@ -23,6 +23,18 @@
 </head>
 <body>
 
+    <a class="historial" id="historial" href="#">Desplegar Historial</a>
+
+    <div class="container_modal">
+        <div class="header_container_modal">
+            <a href="#" id="btn_consulta" class="btn_consulta">Consulta</a>
+            <a href="#" id="btn_procedimiento" class="btn_procedimiento">Procedimiento</a>
+        </div>
+       <div class="body_historial">
+           
+       </div>
+    </div>
+
     <div class="container" id="container">
 
         <table id="tbUsers" class="tbUsers">
@@ -56,6 +68,11 @@
         </table>
 
     </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <script src="app.js"></script>
     
 </body>
 </html>
